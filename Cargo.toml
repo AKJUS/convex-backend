@@ -194,7 +194,7 @@ ref-cast = "1.0.20"
 regex = "1"
 reqwest = { version = "0.12.7", features = [ "json", "stream", "gzip", "native-tls-alpn", "native-tls-vendored" ] }
 reqwest-middleware = "0.4.1"
-rsa = "0.9.6"
+rsa = "0.9.7"
 rusqlite = { version = "0.32", features = [ "bundled" ] }
 rustls = { version = "0.23", default-features = false }
 rustls-native-certs = { version = "0.8" }
@@ -243,7 +243,7 @@ tower-cookies = "0.11"
 tower-http = { version = "0.6", features = [ "trace", "cors", "decompression-br", "limit" ] }
 tracing = "0.1"
 tracing-appender = { version = "0.2" }
-tracing-subscriber = { version = "0.3.17", features = [ "env-filter", "json" ] }
+tracing-subscriber = { version = "0.3.18", features = [ "env-filter", "json" ] }
 tracy-client = { version = "0.18.0", default-features = false, features = [ "fibers" ] }
 tungstenite = { version = "0.26.2", features = [ "url", "native-tls-vendored" ] }
 url = "2.5.4"
